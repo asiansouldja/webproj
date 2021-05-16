@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="jquery.fancybox.css" />
+    <title>React Development</title>
+  </head>
+  <body>
+     <header class="header">
+       <div class="header__inner">
+      <label class="logo">React</label>
+       <div class="menu__burger">
+         <span></span>
+       </div>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a class="active menu__list-link" href="#">Home</a></li>
+          <li class="menu__item"><a href="#about" class="menu__list-link">About</a></li>
+          <li class="menu__item"><a href="#projects" class="menu__list-link">Projects</a></li>
+          <li class="menu__item"><a href="#contact" class="menu__list-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+      <div class="back"><button class="btn">Explore</button></div>
+    </header>
+
+     <main>
+       <div class="projectPage">
+       <div class="padProj" >
+        <p class="projectsText">Projects</p>
+        <hr>
+      </div>
+      
+      <div class="projects" id="projects">
+      
+      <div class="rectangle">
+        <p class="projectsName">Laguna</p>
+        <img src="project1.jpg" class="projectImage"/>
+      </div>
+
+      <div class="rectangle">
+        <p class="projectsName">Moul</p>
+        <img src="project2.jpg" class="projectImage"/>
+
+      </div>
+
+      <div class="rectangle">
+        <p class="projectsName">Chinese</p>
+        <img src="project3.jpg" class="projectImage"/>
+
+      </div>
+
+      <div class="rectangle">
+        <p class="projectsName">Red sand</p>
+        <img src="project4.jpg" class="projectImage"/>
+      </div>
+
+      <div class="rectangle">
+        <p class="projectsName">Arabic</p>
+        <img src="project5.jpg" class="projectImage"/>
+      </div>
+
+      <div class="rectangle">
+        <p class="projectsName">Buildy</p>
+        <img src="project6.jpg" class="projectImage"/>
+      </div>
+
+      
+      
+      
+
+      </div> 
+    </div>
+
+     
+
+     
+
+     
+     <div class="about" id="about">
+      <p class="projectsText">About</p>
+      <hr>
+
+      <div id="aboutFrame">
+        <p class="aboutT">Contrary to popular belief, Lorem Ipsum is not simply random text. 
+          It has roots in a piece of classical Latin literature from 45 BC, 
+          making it over 2000 years old.
+           Richard McClintock, a Latin professor at 
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+           Latin words, consectetur, 
+          from a Lorem Ipsum passage, and going through the cites of the word 
+          in classical literature,
+           discovered the undoubtable source. Lorem Ipsum comes from 
+           sections 1.10.32 and 1.10.33 of "de 
+           Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
+            by Cicero, written in 45 BC.
+            This book
+           is a treatise on the theory of ethics, very popular during 
+           the Renaissance. The first line
+           of Lorem Ipsum,
+          "Lorem ipsum dolor sit amet..", comes from a 
+          line in section 1.10.32.
+
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+           interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
+            also reproduced in their exact original form, accompanied by English versions from the 1914
+         translation by H. Rackham.</p>
+      </div>
+     </div>
+
+
+
+     <div class="padTeam">
+      <p class="projectsText">Team</p>
+      <hr id="teamLine">
+
+     </div>
+     <div class="aboutTeam">
+
+      <div class="teamItem">
+
+       <img src="team.jpg" class="team1"/>
+       <p class="nameT">John Miller</p>
+       <div id="rectanglePos1">
+        <p class="posText">CEO</p>
+      </div>
+    </div>
+   
+
+    <div class="teamItem">
+
+      <img src="team2.jpg" class="team1"/>
+      <p class="nameT">Mike Retry</p>
+      <div id="rectanglePos1">
+       <p class="posText">Designer</p>
+     </div>
+   </div>
+
+   <div class="teamItem">
+
+    <img src="team3.jpg" class="team1"/>
+    <p class="nameT">Emily Holowell</p>
+    <div id="rectanglePos1">
+     <p class="posText">Manager</p>
+   </div>
+ </div>
+     </div>
+
+
+
+    
+
+    <div class="contact" id="contact">
+      <section class="contact">
+        <div class="container">
+      <div class="contact__inner">
+        
+        <p class="projectsText">Contact us</p>
+      <hr id="teamLine">
+      <form action="contact__form">
+      
+        <input type="text" class="contact__form-text" placeholder="Name">
+        <input type="email" class="contact__form-text" placeholder="email">
+        <input type="text" class="contact__form-text" placeholder="number">
+        <textarea class="contact__form-text" placeholder="Message" ></textarea>
+        <input type="submit" class="contact__form-btn" value="Send">
+      </form>
+      </div>
+      </div>
+      </section>
+    </div>
+
+     
+    </div> 
+
+
+
+    <div class="locationCon">
+      <img src="map.jpg" class="map"/>
+
+    </div> 
+    <footer>
+      
+      
+      <div class="footerLeftSide">
+        <p>React Development<br>
+          503 East Pacific Lane
+          Brooklyn, NY 11233<br> Fax: 12345678</p>
+      </div>
+
+      <div class="footerRightSide">
+        
+        <p>Follow us:</p>
+        <div class="footerLink">
+        <img src="inst.png" class="inst"/>
+        <a href="https://www.instagram.com/architecture_hunter/?hl=ru" target="_blank" class="instLink">reactarch</a>
+      </div>
+    </div>
+
+    </footer>  
+
+
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="jquery.fancybox.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
