@@ -9,7 +9,7 @@ $('.menu__list-link').on('click', function () {
 });
 
 
-var hoy = 0;
+var hoy = 1;
 
 
 
